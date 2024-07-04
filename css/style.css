@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Patrick Hand", cursive;
+    /* font-weight: 400;
+    font-style: normal; */
+  }
+
+.container{
+    padding: 50px;
+}
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.section-one__contact{
+    color: black;
+    background-color: orange;
+    padding: 2px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.section-one__name{
+    font-size: 50px;
+}
+.section-one__role{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.section-two,.section-three,.section-four,.section-footer{
+    margin-top: 20px;
+}
+.section-two__description,.section-three__interests,.section-four__projects,.section-footer__title{
+    margin-top: 10px;
+}
+.section-footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.section-footer__title a{
+    color: skyblue;
+}
+.section-footer__title span img{
+    height: 15px;
+    width: 15px;
+}
+.section-three__interests,.section-four__projects{
+    list-style: none;
+}
+
+.section-three{
+    background-color: #6462FD;
+    color: whitesmoke;
+}
+.section-four{
+    background-color: orange;
+}
+.section-three,.section-four{
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    vertical-align: top;
+}
+.contact-form{
+    margin-top: 20px;
+}
+
+.contact-form__input,.contact-form__textarea,.contact-form__submit{
+    margin-top: 10px;
+}
+
+.contact-form__input{
+    border: none;
+    border-bottom: solid black 1px;
+    padding: 10px;
+}
+.contact-form__textarea{
+    border: solid black 1px;
+    padding: 10px;
+}
+.contact-form__input:focus,.contact-form__textarea:focus{
+    outline: none;
+}
+.contact-form__submit{
+    color: black;
+    background-color: orange;
+    padding: 2px;
+}

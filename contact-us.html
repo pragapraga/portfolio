@@ -5,38 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <a href="./index.html">Home</a>
-    <h1>Pragadeeswaran</h1>
-    <!-- <p><img src="https://img.icons8.com/?size=100&id=40217&format=png&color=000000" alt="" srcset=""><a href="./index.html">Home</a></p> -->
-    <p>Web Development Learner</p>
-    <table>
-        <tr>
-            <td>Name:</td>
-            <td><input type="text" placeholder="Your Name"></td>
-        </tr>
-        <tr>
-            <td>Email:</td>
-            <td><input type="email" placeholder="Your Email"></td>
-        </tr>
-        <tr>
-            <td>Message:</td>
-            <td><textarea name="" id="" cols="15" rows="3" placeholder="Your Message"></textarea></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td><input type="submit" value="Submit"></td>
-        </tr>
-        <tr>
-            <td>Social Media:
+    <div class="container">
+        <div class="section-one">
+            <h1 class="section-one__name">Pragadeeswaran</h1>
+            <p class="section-one__role">Full Stack Development Learner</p>
+            <a class="section-one__contact" href="./index.html">Home</a>
+        </div>
+        <div class="contact-form">
+            <form>
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td><input type="text" placeholder="Your Name" class="contact-form__input"></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" placeholder="Your Email" class="contact-form__input"></td>
+                    </tr>
+                    <tr>
+                        <td>Message:</td>
+                        <td><textarea name="" id="" cols="15" rows="3" placeholder="Your Message" class="contact-form__textarea"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Submit" class="contact-form__submit"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="section-footer">
+            <p class="section-footer__title">Social Media:
+                <span><img src="./images/linkedin.png" alt="" srcset=""></span>
                 <a href="https://linkedin.com/in/pragag" target="_blank" rel="noopener noreferrer">Linkedin</a>
-                <a href="https://www.youtube.com/@pragadees24" target="_blank" rel="noopener noreferrer">YouTube</a></p>
-                <p>&copy;Pragadeeswaran Gnanasekaran</p>
-            </td>
-        </tr>
-    </table>
+                <span><img src="./images/youtube.png" alt="" srcset=""></span>
+                <a href="https://www.youtube.com/@pragadees24" target="_blank" rel="noopener noreferrer">YouTube</a>
+            </p>
+            <p class="section-footer--copyright">&copy;Pragadeeswaran Gnanasekaran</p>
+        </div>
+    </div>
 </body>
 
 </html>
